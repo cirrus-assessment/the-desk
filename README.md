@@ -1,7 +1,7 @@
 # The desk
 
-Public, Slack-shareable wrappers for **The desk**, the Cirrus monthly newsletter
-(subtitle: *The Cirrus Monthly*). Each issue has its own dated permalink and carries
+Public, Slack-shareable wrappers for **The desk**, Cirrus's monthly newsletter.
+Each issue has its own dated permalink and carries
 its own Open Graph / Twitter Card metadata and preview image, so a shared link
 unfurls with that issue's title, standfirst and teaser card. The reports themselves
 stay behind Google sign-in.

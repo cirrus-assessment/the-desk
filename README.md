@@ -9,11 +9,13 @@ stay behind Google sign-in.
 ## Structure
 
     /                  redirects to the latest issue (and mirrors its preview card)
+    favicon.ico        shared site icons (also favicon-16/32.png, apple-touch-icon.png)
     /2026-06/          June 2026, Issue 01, "Before it becomes a ticket"
-      index.html       OG / Twitter meta + iframe embed of the live report
+      index.html       OG / Twitter meta + favicon links + iframe embed of the live report
       og.png           1200x630 preview card for this issue
 
 URL convention: one folder per issue, named by year-month (YYYY-MM).
+The icon is the orange "d" from the wordmark on the cream ground.
 
 ## Adding an issue
 

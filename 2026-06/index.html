@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
 <title>The desk · June 2026</title>
 <link rel="icon" href="/the-desk/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/the-desk/favicon-32.png">
@@ -23,9 +24,37 @@
 <meta name="twitter:description" content="Our support queue keeps shrinking while clients run just as many exams. This is how a two-person desk did it, and why fewer tickets is the best news we have had all year.">
 <meta name="twitter:image" content="https://cirrus-assessment.github.io/the-desk/2026-06/og.png?v=4">
 
-<style>html,body{margin:0;height:100%;background:#F4EFE3}iframe{border:0;width:100%;height:100%;display:block}</style>
+<style>
+  :root{--bg:#F4EFE3;--ink:#1A1612;--muted:#6b6358;--orange:#E76A25}
+  html{color-scheme:light}
+  html,body{margin:0;height:100%}
+  body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;box-sizing:border-box}
+  .card{max-width:420px}
+  .wordmark{font-family:Georgia,"Times New Roman",serif;line-height:1}
+  .wordmark .the{display:block;font-size:15px;letter-spacing:.02em;color:var(--ink)}
+  .wordmark .desk{display:block;font-size:54px;font-weight:700;color:var(--orange);margin-top:-2px}
+  .folio{margin-top:10px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .spinner{margin:26px auto 0;width:22px;height:22px;border:2px solid rgba(231,106,37,.25);border-top-color:var(--orange);border-radius:50%;animation:spin .8s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .msg{margin-top:20px;font-size:15px}
+  .fallback{margin-top:10px;font-size:13px;color:var(--muted);line-height:1.5}
+  .fallback a{color:var(--orange);text-decoration:none;font-weight:600}
+  .fallback a:hover{text-decoration:underline}
+  @media (prefers-reduced-motion:reduce){.spinner{animation:none}}
+</style>
 </head>
 <body>
-<iframe src="https://script.google.com/macros/s/AKfycbxfD1Tcm3--GuGYBhD2GHDJOd4alf74DxJlzVUeDvksbsZrjLh_fzgbrFeE47KyaeaQ/exec?report=csm-ticket-trends-2025-2026" title="The desk · June 2026" allow="fullscreen"></iframe>
+  <main class="card">
+    <div class="wordmark"><span class="the">The</span><span class="desk">desk</span></div>
+    <div class="folio">Issue 01 · June 2026</div>
+    <div class="spinner" aria-hidden="true"></div>
+    <p class="msg">Opening the issue&hellip;</p>
+    <p class="fallback">Sign in with your Cirrus account to read it.<br>
+      <a href="https://script.google.com/macros/s/AKfycbxfD1Tcm3--GuGYBhD2GHDJOd4alf74DxJlzVUeDvksbsZrjLh_fzgbrFeE47KyaeaQ/exec?report=csm-ticket-trends-2025-2026">Open The desk &rarr;</a>
+    </p>
+  </main>
+  <script>
+    location.replace("https://script.google.com/macros/s/AKfycbxfD1Tcm3--GuGYBhD2GHDJOd4alf74DxJlzVUeDvksbsZrjLh_fzgbrFeE47KyaeaQ/exec?report=csm-ticket-trends-2025-2026");
+  </script>
 </body>
 </html>

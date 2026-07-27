@@ -13,6 +13,9 @@ stay behind Google sign-in.
     /2026-06/          June 2026, Issue 01, "Before it becomes a ticket"
       index.html       OG / Twitter meta + favicon links + a top-level redirect to the live report
       og.png           1200x630 preview card for this issue
+    /2026-07/          July 2026, Issue 02, "Beyond the role: Jad Kaddour"
+      index.html       OG / Twitter meta + favicon links + a top-level redirect to the live report
+      og.png           1200x630 preview card for this issue
 
 The issue page redirects (it does not iframe) the reader to the Google
 sign-in report. A top-level navigation lets the normal Cirrus sign-in run
@@ -30,4 +33,4 @@ The icon is the orange "d" from the wordmark on the cream ground.
    og:description) and a 1200x630 og.png preview card.
 2. Repoint the root redirect and the root OG block at the new issue.
 
-Latest: https://cirrus-assessment.github.io/the-desk/2026-06/
+Latest: https://cirrus-assessment.github.io/the-desk/2026-07/

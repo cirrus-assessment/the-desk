@@ -34,3 +34,5 @@ The icon is the orange "d" from the wordmark on the cream ground.
 2. Repoint the root redirect and the root OG block at the new issue.
 
 Latest: https://cirrus-assessment.github.io/the-desk/2026-07/
+
+Issue 02 share link: https://cirrus-assessment.github.io/the-desk/2026-07/jad-kaddour/

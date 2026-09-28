@@ -22,23 +22,38 @@
 <meta name="twitter:description" content="The Senior Account Executive on early starts, his mum’s cooking, home and a good life.">
 <meta name="twitter:image" content="https://cirrus-assessment.github.io/the-desk/2026-09/og.png?v=1">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap" rel="stylesheet">
 <style>
-  html, body {
-    margin: 0;
-    min-height: 100%;
+  html, body { margin: 0; height: 100%; }
+  body {
+    display: grid;
+    place-items: center;
     background: #f4efe3;
     color: #1a1612;
     font-family: system-ui, sans-serif;
   }
-  body {
-    display: grid;
-    place-items: center;
-  }
+  .loader { display: flex; flex-direction: column; align-items: center; gap: 22px; animation: rise .6s cubic-bezier(.2,.6,.2,1) both; }
+  .wordmark { margin: 0; display: flex; flex-direction: column; font-family: Bitter, Georgia, serif; font-weight: 700; line-height: .86; letter-spacing: -.03em; }
+  .wordmark .the { font-size: 22px; margin-left: 3px; }
+  .wordmark .desk { font-size: 68px; color: #e76a25; }
+  .dots { display: flex; gap: 8px; }
+  .dots span { width: 7px; height: 7px; border-radius: 50%; background: #e76a25; opacity: .25; animation: pulse 1.2s ease-in-out infinite; }
+  .dots span:nth-child(2) { animation-delay: .2s; }
+  .dots span:nth-child(3) { animation-delay: .4s; }
+  @keyframes pulse { 0%, 80%, 100% { opacity: .25; transform: translateY(0); } 40% { opacity: 1; transform: translateY(-4px); } }
+  @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  noscript p { margin: 0; font-size: 14px; color: #847a6c; text-align: center; }
+  @media (prefers-reduced-motion: reduce) { .loader, .dots span { animation: none; } .dots span { opacity: .6; } }
 </style>
 </head>
 <body>
-  <p>Opening The desk...</p>
-  <noscript><p>Sign in with your Cirrus account to read the interview.</p></noscript>
+  <div class="loader" role="status" aria-label="Opening The desk">
+    <p class="wordmark" aria-hidden="true"><span class="the">The</span><span class="desk">desk</span></p>
+    <div class="dots" aria-hidden="true"><span></span><span></span><span></span></div>
+    <noscript><p>Sign in with your Cirrus account to read the interview.</p></noscript>
+  </div>
   <script>
     location.replace("https://script.google.com/a/macros/cirrusassessment.com/s/AKfycbxfD1Tcm3--GuGYBhD2GHDJOd4alf74DxJlzVUeDvksbsZrjLh_fzgbrFeE47KyaeaQ/exec?report=the-desk-2026-09-chris-smith-idehenre");
   </script>

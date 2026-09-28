@@ -10,6 +10,10 @@ stay behind Google sign-in.
 
     /                  redirects to the latest issue (and mirrors its preview card)
     favicon.ico        shared site icons (also favicon-16/32.png, apple-touch-icon.png)
+    /beyond-the-role/   Portal: every Beyond the role interview as a card (portrait, name,
+                       role, issue, month) linking to its share page. Add a card per new issue.
+      og.png           1200x630 preview card for the portal
+      portraits/       560px WebP portraits used by the cards
     /2026-06/          June 2026, Issue 01, "Before it becomes a ticket"
       index.html       OG / Twitter meta + favicon links + a top-level redirect to the live report
       og.png           1200x630 preview card for this issue
@@ -59,3 +63,5 @@ Issue 05 share link: https://cirrus-assessment.github.io/the-desk/2026-09/anasta
 
 Issue 05 source: `the-desk-2026-09-anastasia-safronova.html` in the same
 Cirrus Service Desk Reports Drive folder.
+
+Beyond the role portal: https://cirrus-assessment.github.io/the-desk/beyond-the-role/

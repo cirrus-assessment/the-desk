@@ -21,6 +21,10 @@ stay behind Google sign-in.
       og.png           1200x630 preview card for this issue
       chris-smith-idehenre/index.html
                        Article-specific share link to the same protected report
+      anastasia-safronova/
+                       Issue 05, "Beyond the role: Anastasia Safronova"
+        index.html     OG / Twitter meta + a top-level redirect to the live report
+        og.png         1200x630 preview card for this article
 
 The issue page redirects (it does not iframe) the reader to the Google
 sign-in report. A top-level navigation lets the normal Cirrus sign-in run
@@ -38,7 +42,10 @@ The icon is the orange "d" from the wordmark on the cream ground.
    og:description) and a 1200x630 og.png preview card.
 2. Repoint the root redirect and the root OG block at the new issue.
 
-Latest: https://cirrus-assessment.github.io/the-desk/2026-09/
+Latest: https://cirrus-assessment.github.io/the-desk/2026-09/anastasia-safronova/
+
+The root redirect and preview now point at Issue 05. The /2026-09/ issue page
+still opens Chris's Issue 04, so links already shared keep working.
 
 Issue 02 share link: https://cirrus-assessment.github.io/the-desk/2026-07/jad-kaddour/
 
@@ -47,3 +54,8 @@ Issue 04 share link: https://cirrus-assessment.github.io/the-desk/2026-09/chris-
 Issue 04 source: `the-desk-2026-09-chris-smith-idehenre.html` in the existing
 Cirrus Service Desk Reports Drive folder. The full interview and its images
 stay in Drive; this repository holds only the public share pages and preview.
+
+Issue 05 share link: https://cirrus-assessment.github.io/the-desk/2026-09/anastasia-safronova/
+
+Issue 05 source: `the-desk-2026-09-anastasia-safronova.html` in the same
+Cirrus Service Desk Reports Drive folder.

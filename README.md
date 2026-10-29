@@ -30,6 +30,11 @@ stay behind Google sign-in.
                        Issue 05, "Beyond the role: Anastasia Safronova"
         index.html     OG / Twitter meta + a top-level redirect to the live report
         og.png         1200x630 preview card for this article
+    /2026-10/          October 2026, Issue 06; opens Cristina's interview
+      cristina-gilbert/
+                       Issue 06, "Beyond the role: Cristina Gilbert"
+        index.html     OG / Twitter meta + a top-level redirect to the live report
+        og.png         1200x630 preview card for this article
 
 The issue page redirects (it does not iframe) the reader to the Google
 sign-in report. A top-level navigation lets the normal Cirrus sign-in run
@@ -47,10 +52,12 @@ The icon is the orange "d" from the wordmark on the cream ground.
    og:description) and a 1200x630 og.png preview card.
 2. Repoint the root redirect and the root OG block at the new issue.
 
-Latest: https://cirrus-assessment.github.io/the-desk/2026-09/anastasia-safronova/
+Latest: https://cirrus-assessment.github.io/the-desk/2026-10/cristina-gilbert/
 
-The root redirect and preview now point at Issue 05. The /2026-09/ issue page
+The root redirect and preview now point at Issue 06. The /2026-09/ issue page
 still opens Chris's Issue 04, so links already shared keep working.
+
+Issue 05 share link: https://cirrus-assessment.github.io/the-desk/2026-09/anastasia-safronova/
 
 Issue 02 share link: https://cirrus-assessment.github.io/the-desk/2026-07/jad-kaddour/
 
